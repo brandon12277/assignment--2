@@ -9,7 +9,9 @@ protected:
     string name;
 
 public:
-    Shape(string shapeName) : name(shapeName) {}
+    Shape(string shapeName) : name(shapeName) {
+        
+    }
 
    
     virtual double area() = 0;
